@@ -1,0 +1,33 @@
+Dataset Name:
+Telco Customer Churn Dataset
+
+Source:
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+Direct CSV Link:
+https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv
+
+Description:
+This dataset contains information about telecom customers, including demographic details, services subscribed, and billing information. It is used to predict whether a customer will churn (leave the service) or continue.
+
+Number of Records:
+7043 customers
+
+Number of Features:
+21 columns
+
+Target Variable:
+Churn (Yes/No)
+
+Important Features:
+- gender: Customer gender
+- SeniorCitizen: Whether customer is a senior citizen
+- tenure: Number of months the customer has stayed
+- Contract: Type of contract (Month-to-month, One year, Two year)
+- MonthlyCharges: Monthly bill amount
+- TotalCharges: Total bill amount
+- InternetService: Type of internet service
+- PaymentMethod: Payment method used
+
+Usage in Project:
+The dataset was preprocessed using Python (Pandas), and machine learning models were applied to predict customer churn. A dashboard was created in Excel to visualize key churn patterns and business insights.
