@@ -1,4 +1,4 @@
-Market Basket Analysis
+Market Basket Analysis using Apriori Algorithm and Power BI
 
 This project focuses on analyzing customer purchase behavior using association rule mining techniques. The goal is to identify relationships between products that are frequently bought together.
 
