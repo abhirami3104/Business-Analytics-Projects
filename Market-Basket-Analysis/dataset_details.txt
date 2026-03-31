@@ -1,0 +1,38 @@
+DATASET DETAILS
+
+Dataset Name: Groceries Dataset
+
+Source:
+Kaggle - https://www.kaggle.com/datasets/irfanasrullah/groceries
+
+Description:
+This dataset contains transaction data from a grocery store. Each row represents a single transaction, and items purchased in that transaction are listed as comma-separated values.
+
+Structure:
+- Each row = one transaction
+- Items are separated by commas
+- No predefined Transaction ID (implicitly represented by row index)
+
+Example:
+milk,bread,butter
+bread,eggs
+milk,eggs
+
+Total Records:
+- Approximately 9835 transactions
+- Around 169 unique items
+
+Usage in Project:
+- The dataset was preprocessed to convert transaction data into basket format
+- Applied Apriori algorithm to generate frequent itemsets
+- Generated association rules using support, confidence, and lift
+
+Key Columns (after processing):
+- antecedents: Items bought together (if part)
+- consequents: Items likely to be bought
+- support: Frequency of item combination
+- confidence: Probability of purchase
+- lift: Strength of association between items
+
+Purpose:
+Used for Market Basket Analysis to identify product relationships and support business decisions like cross-selling and product placement.
